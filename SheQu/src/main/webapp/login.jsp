@@ -26,7 +26,7 @@
 <div class="layui-canvs"></div>
 <div class="layui-layout layui-layout-login">
     <h1>
-        <strong>社区物业后台管理系统</strong>
+        <strong>地铁交通信息管理系统</strong>
         <em>Management System</em>
     </h1>
     <div class="layui-user-icon larry-login">
@@ -93,5 +93,9 @@
         });
     });
 </script>
+<%= application.getServerInfo() %><br>
+<%= application.getMajorVersion() %>.<%= application.getMinorVersion() %><br>
+<%= JspFactory.getDefaultFactory().getEngineInfo().getSpecificationVersion() %><br>
+<%= System.getProperty("java.version") %><br>
 </body>
 </html>

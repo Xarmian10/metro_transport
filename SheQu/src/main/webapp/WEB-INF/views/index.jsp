@@ -28,7 +28,7 @@
 <body>
 <!-- 顶部开始 -->
 <div class="container">
-    <div class="logo"><a href="${pageContext.request.contextPath}/personInfo">物业管理系统</a></div>
+    <div class="logo"><a href="${pageContext.request.contextPath}/personInfo">地铁交通信息管理系统</a></div>
     <div class="left_open">
         <i title="展开左侧栏" class="iconfont">&#xe699;</i>
     </div>
