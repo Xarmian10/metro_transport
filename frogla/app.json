@@ -23,7 +23,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "小区物业管理",
+    "navigationBarTitleText": "ONE STATION",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -36,15 +36,15 @@
       },
       {
         "pagePath": "pages/phone_number/phone_number",
-        "text": "常用电话",
-        "iconPath": "images/phone.png",
-        "selectedIconPath": "images/phone2.png"
+        "text": "防疫工具箱",
+        "iconPath": "images/util.png",
+        "selectedIconPath": "images/util-reverse.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
         "iconPath": "images/my.png",
-        "selectedIconPath": "images/my2.png"
+        "selectedIconPath": "images/my-reverse.png"
       }
     ]
   },

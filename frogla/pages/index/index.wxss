@@ -28,7 +28,7 @@
   border-right: none;
 }
 .icon-gonggao{
-  color:#deaf39;
+  color:#2f7aeb;
 }
 .icon-weixiu{
   color: #486795;

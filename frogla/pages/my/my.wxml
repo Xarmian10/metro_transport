@@ -23,7 +23,7 @@
     </view> -->
     <view class="my-items my-suggests">
       <text class="iconfont icon-tousu"></text>
-      <navigator url="../my_qs/my_qs"><text class="word">我的问卷</text></navigator>
+      <navigator url="../my_qs/my_qs"><text class="word">我的常用</text></navigator>
       <text class="iconfont icon-jiantou"></text>
     </view>
     <!--<view class="my-items my-visitors">

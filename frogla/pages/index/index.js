@@ -24,14 +24,25 @@ Page({
       url: '../second_level/secondhand/goods'
     })
   },
+  // notice: function() {
+  //   wx.navigateTo({
+  //     // url: '../second_level/notice/notice'
+  //     url: 'weixin://dl/business/?t=QDZVQEO2z9f
+  //   })
+  // },
   notice: function() {
-    wx.navigateTo({
-      url: '../second_level/notice/notice'
+    wx.navigateToMiniProgram({
+      appId:'wx82d43fee89cdc7df'
     })
   },
+  // repairs: function() {
+  //   wx.navigateTo({
+  //     url: '../second_level/repairs/repairs'
+  //   })
+  // },
   repairs: function() {
-    wx.navigateTo({
-      url: '../second_level/repairs/repairs'
+    wx.navigateToMiniProgram({
+      appId: 'wxbb58374cdce267a6',
     })
   },
   pay: function() {
@@ -44,9 +55,14 @@ Page({
       url: '../second_level/pay/pay'
     })
   },
+  // survey: function() {
+  //   wx.navigateTo({
+  //     url: '../survey/survey'
+  //   })
+  // },
   survey: function() {
-    wx.navigateTo({
-      url: '../survey/survey'
+    wx.navigateToMiniProgram({
+      appId: 'wx8f446acf8c4a85f5',
     })
   },
   visitor: function() {
